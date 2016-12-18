@@ -1,0 +1,230 @@
+[ 2016-05-08T22:55:23+08:00 ] ::1 /wxtest/index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 59 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/ddaf032eeb3f0e441c9409c65fc90ee1.php 第 37 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/ddaf032eeb3f0e441c9409c65fc90ee1.php 第 46 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/ddaf032eeb3f0e441c9409c65fc90ee1.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-05-08T22:55:29+08:00 ] ::1 /wxtest/index.php/Home/Public/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `su_user` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `su_admin` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_org` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `su_user` WHERE `username` = 'zxy7527' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-05-08T22:56:00+08:00 ] ::1 /wxtest/index.php/Home/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-05-08T22:56:01+08:00 ] ::1 /wxtest/index.php/Home/Public/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 59 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/a6ecb78825c5a0283bfca1fc7b4169ed.php 第 37 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/a6ecb78825c5a0283bfca1fc7b4169ed.php 第 46 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/a6ecb78825c5a0283bfca1fc7b4169ed.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-05-08T22:56:12+08:00 ] ::1 /wxtest/index.php/Home/Public/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `su_user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_admin` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `su_org` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `su_org` WHERE `username` = 'BNUZ' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-05-08T23:00:07+08:00 ] ::1 /wxtest/index.php/Home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-08T23:02:20+08:00 ] ::1 /wxtest/index.php/Home/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-05-08T23:02:21+08:00 ] ::1 /wxtest/index.php/Home/Public/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 59 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/a6ecb78825c5a0283bfca1fc7b4169ed.php 第 37 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/a6ecb78825c5a0283bfca1fc7b4169ed.php 第 46 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/a6ecb78825c5a0283bfca1fc7b4169ed.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-05-08T23:02:29+08:00 ] ::1 /wxtest/index.php/Home/Public/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `su_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `su_admin` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `su_org` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `su_org` WHERE `username` = 'BNUZ' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-05-08T23:49:17+08:00 ] ::1 /wxtest/index.php/Home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+

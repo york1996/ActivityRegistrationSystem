@@ -1,0 +1,36 @@
+<include file="Public/user/header.html" title="信息修改" />
+<include file="Public/user/menu.html" />
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">信息修改</strong> / <small>在这里可以修改信息</small></div>
+</div>
+<div class="am-g">
+    <div class="am-u-sm-12">
+    <form class="am-form" method="post" action="__URL__/update">
+        <div class="am-input-group">
+            <span class="am-input-group-label"><i class="am-icon-mobile am-icon-fw"></i></span>
+            <input type="text" class="am-form-field" name="mobile" placeholder="输入手机" value="{$vo.mobile}">
+        </div>
+        <br />
+        <div class="am-input-group">
+            <span class="am-input-group-label"><i class="am-icon-group am-icon-fw"></i></span>
+            <input type="text" class="am-form-field" name="org" placeholder="所属组织" value="{$vo.org}">
+        </div>
+        <br />
+        <div class="am-input-group">
+            <span class="am-input-group-label"><i class="am-icon-lock am-icon-fw"></i></span>
+            <input type="password" class="am-form-field" name="password" placeholder="输入密码">
+        </div>
+        <br />
+        <div class="am-input-group">
+            <span class="am-input-group-label"><i class="am-icon-lock am-icon-fw"></i></span>
+            <input type="password" class="am-form-field" name="repasswd" placeholder="确认密码">
+        </div>
+        <br />
+        <div class="am-input-group am-align-right">
+            <p><button class="am-btn-primary">提交修改</button></p>
+        </div>
+    </form>
+    </div>
+</div>
+<include file="Public/user/footer.html" />
+

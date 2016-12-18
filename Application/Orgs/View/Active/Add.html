@@ -1,0 +1,54 @@
+<include file="Public/orgs/header.html" title="新增活动" />
+<include file="Public/orgs/menu.html" />
+
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">添加活动</strong> / <small>新增活动项目</small></div>
+</div>
+
+<div class="am-container">
+    <form class="am-form" method="post" action="__URL__/add" enctype="multipart/form-data" data-am-validator>
+        <div class="am-form-group">
+            <label for="title">标题</label>
+            <div>
+                <input type="text" id="title" name="title" placeholder="标题" required>
+            </div>
+        </div>
+        <!--<div class="am-form-group">-->
+            <!--<label>组织</label>-->
+            <!--<div>-->
+                <!--<input type="text" name="orgs" placeholder="组织" required value="{$_SESSION['name']}">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="am-form-group">
+            <label for="container">说明</label>
+            <div>
+                <script id="container" name="content" type="text/plain">
+                </script>
+            </div>
+        </div>
+        <div class="am-form-group">
+            <label for="time">报名截止时间</label>
+            <div>
+                <input id="time" name="time" type="text" class="am-form-field" placeholder="日历" data-am-datepicker readonly required />
+            </div>
+        </div>
+        <div class="am-form-group">
+            <di>
+                <button type="submit" class="am-btn-default">添加</button>
+            </di>
+        </div>
+    </form>
+</div>
+
+<js href="__PUBLIC__/js/jquery-2.0.2.js" />
+<js href="__PUBLIC__/ueditor/ueditor.config.js" />
+<js href="__PUBLIC__/ueditor/ueditor.all.js" />
+<script>
+    $(function(){
+        var ue = UE.getEditor('container',{
+                    serverUrl :'{:U('Admin/Index/ueditor')}'
+    });
+    })
+</script>
+
+<include file="Public/admin/footer.html" />

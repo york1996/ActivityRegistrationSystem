@@ -1,0 +1,56 @@
+<include file="Public/orgs/header.html" title="活动编辑" />
+<include file="Public/orgs/menu.html" />
+
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">修改活动</strong> / <small>编辑活动项目</small></div>
+</div>
+
+<div class="am-container">
+    <form class="am-form" method="post" action="__URL__/Edit" enctype="multipart/form-data">
+        <div class="am-form-group">
+            <label for="title">标题</label>
+            <div>
+                <input type="text" id="title" name="title" placeholder="标题" value="{$vo.title}">
+            </div>
+        </div>
+        <div class="am-form-group">
+            <label>组织</label>
+            <div>
+                <input type="text"  name="org" placeholder="编辑" value="{$vo.org}">
+            </div>
+        </div>
+        <div class="am-form-group">
+            <label for="container">说明</label>
+            <div>
+                <script id="container" name="content" type="text/plain">{$vo.content}
+                </script>
+            </div>
+        </div>
+        <div class="am-form-group">
+            <label for="time">报名截止时间</label>
+            <div>
+                <input id="time" type="text" name="time" class="am-form-field" placeholder="日历" data-am-datepicker readonly required value="{$vo.time|date='Y-m-d',###}"/>
+            </div>
+        </div>
+        <input type="hidden" name="id" value="{$vo.id}">
+        <input type="hidden" name="state" value="{$vo.state}">
+        <div class="am-form-group">
+            <di>
+                <button type="submit" class="am-btn-default">修改</button>
+            </di>
+        </div>
+    </form>
+</div>
+
+<js href="__PUBLIC__/js/jquery-2.0.2.js" />
+<js href="__PUBLIC__/ueditor/ueditor.config.js" />
+<js href="__PUBLIC__/ueditor/ueditor.all.js" />
+<script>
+    $(function(){
+        var ue = UE.getEditor('container',{
+                    serverUrl :'{:U('Admin/Index/ueditor')}'
+    });
+    })
+</script>
+
+<include file="Public/admin/footer.html" />

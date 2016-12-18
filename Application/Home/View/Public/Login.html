@@ -1,0 +1,60 @@
+<include file="Public/home/header.html" title="登录"/>
+<include file="Public/home/menu.html" />
+
+<style>
+    .header {
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 200%;
+        color: #333;
+        margin-top: 30px;
+    }
+    .header p {
+        font-size: 14px;
+    }
+</style>
+<div class="header">
+    <div class="am-g">
+        <h1>登陆</h1>
+        <p>请使用正确的用户名和密码登录<br/>如果没有账号请先注册</p>
+    </div>
+    <hr />
+</div>
+<div class="am-g">
+    <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+        <form action="{:U('Public/Login')}" method="post" class="am-form" data-am-validator>
+            <fieldset>
+                <div class="am-form-group">
+                    <label for="doc-vld-name-2">用户名：</label>
+                    <input type="text" name="username" id="doc-vld-name-2" placeholder="输入用户名" required/>
+                </div>
+
+                <div class="am-form-group">
+                    <label for="doc-vld-passwd-2">密码：</label>
+                    <input type="password" name="password" id="doc-vld-passwd-2" placeholder="输入密码" required/>
+                </div>
+
+                <div class="am-form-group">
+                    <label class="am-radio-inline">
+                        <input type="radio" value="1" name="type" checked/> 个人
+                    </label>
+                    <label class="am-radio-inline">
+                        <input type="radio" value="2" name="type"> 组织
+                    </label>
+                    <label class="am-radio-inline">
+                        <input type="radio" value="3" name="type"> 管理员
+                    </label>
+                </div>
+
+                <div class="am-cf">
+                    <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl">
+                </div>
+
+
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<include file="Public/home/footer.html" />

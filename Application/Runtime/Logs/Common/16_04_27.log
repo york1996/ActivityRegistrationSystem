@@ -1,0 +1,36 @@
+[ 2016-04-27T19:29:11+08:00 ] ::1 /wxtest/index.php/Active
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Active
+
+[ 2016-04-27T19:29:13+08:00 ] ::1 /wxtest/index.php/Active
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Active
+
+[ 2016-04-27T19:29:15+08:00 ] ::1 /wxtest/index.php/Active
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Active
+
+[ 2016-04-27T19:36:20+08:00 ] ::1 /wxtest/index.php/Org/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Org
+
+[ 2016-04-27T19:36:28+08:00 ] ::1 /wxtest/index.php/Org/Active
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Org
+
+[ 2016-04-27T19:36:31+08:00 ] ::1 /wxtest/index.php/Org/Active
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Org
+

@@ -1,0 +1,1431 @@
+[ 2016-03-27T21:59:52+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-03-27T22:00:17+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/adminmenu.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(Public/footer.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-03-27T22:01:07+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/footer.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-03-27T22:01:22+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/footer.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-03-27T22:01:23+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/footer.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-03-27T22:01:59+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/footer.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-03-27T22:03:16+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public/footer.html): failed to open stream: No such file or directory /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-03-27T22:03:34+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-03-27T22:04:40+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-03-27T22:05:55+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-03-27T22:06:33+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-03-27T22:08:41+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 33 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-03-27T22:09:14+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 32 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-03-27T22:09:19+08:00 ] ::1 /wxtest/index.php/Admin/User/addadmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载控制器:User
+
+[ 2016-03-27T22:09:54+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 32 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-03-27T22:10:53+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 32 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-03-27T22:11:48+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-03-27T22:12:17+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2016-03-27T22:13:01+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-03-27T22:13:03+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-03-27T22:13:48+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-03-27T22:13:50+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-03-27T22:13:53+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-03-27T22:14:30+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-03-27T22:14:31+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-03-27T22:14:32+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-03-27T22:14:33+08:00 ] ::1 /wxtest/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-03-27T22:14:35+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-03-27T22:14:38+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-03-27T22:15:19+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 77 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 86 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 96 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 126 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 126 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-03-27T22:15:42+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 77 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 86 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 96 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 126 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 126 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-03-27T22:15:44+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-03-27T22:19:55+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag file=&quot;Public/admin/header.html&quot; title=&quot;后台管理&quot;&quot; /&gt;&lt;/tpl&gt; /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                               ^ /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag file=&quot;Public/admin/header.html&quot; title=&quot;后台管理&quot;&quot; /&gt;&lt;/tpl&gt; /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                               ^ /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2016-03-27T22:20:06+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag file=&quot;Public/admin/header.html&quot; title=&quot;后台管理&quot;&quot; /&gt;&lt;/tpl&gt; /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                               ^ /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag file=&quot;Public/admin/header.html&quot; title=&quot;后台管理&quot;&quot; /&gt;&lt;/tpl&gt; /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                               ^ /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2016-03-27T22:20:42+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag file=&quot;Public/admin/header.html&quot; title=&quot;后台管理&quot;&quot; /&gt;&lt;/tpl&gt; /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                               ^ /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag file=&quot;Public/admin/header.html&quot; title=&quot;后台管理&quot;&quot; /&gt;&lt;/tpl&gt; /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+NOTIC: [2] simplexml_load_string():                                                               ^ /Applications/MAMP/htdocs/wxtest/ThinkPHP/Library/Think/Template.class.php 第 275 行.
+ERR: XML标签语法错误
+
+[ 2016-03-27T22:21:45+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-03-27T22:21:47+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-03-27T22:22:14+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-03-27T22:22:17+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-03-27T22:22:31+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-03-27T22:24:05+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-03-27T22:24:06+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-03-27T22:24:33+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-03-27T22:24:53+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-03-27T22:24:55+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-03-27T22:24:57+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-03-27T22:26:28+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-03-27T22:26:30+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-03-27T22:30:40+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-03-27T23:36:27+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-03-27T23:40:02+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-03-27T23:41:38+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-03-27T23:41:41+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-03-27T23:42:04+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-03-27T23:42:06+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-03-27T23:42:24+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-03-27T23:42:25+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-03-27T23:42:31+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-03-27T23:42:54+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-03-27T23:42:55+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-03-27T23:47:29+08:00 ] ::1 /wxtest/index.php/Admin/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 38 行.
+NOTIC: [8] Undefined variable: vo /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: so /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+NOTIC: [8] Undefined variable: no /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Admin/da4cd6c0f72b4897fc3959e8a3e7598e.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+

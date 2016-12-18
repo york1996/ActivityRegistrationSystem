@@ -1,0 +1,75 @@
+<include file="Public/admin/header.html" title="组织管理" />
+<include file="Public/admin/menu.html" />
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">组织管理</strong> / <small>在这里可以管理组织账号</small></div>
+</div>
+
+<div class="am-container">
+    <div class="am-container">
+        <form class="am-forme" method="post" action="{:U('Org/add')}"  enctype="multipart/form-data">
+            <div class="am-form-group">
+                <label for="id">用户名</label>
+                <input type="text" class="form-control" id="id" placeholder="用户名" name="username">
+            </div>
+            <div class="am-form-group">
+                <label for="name">组织名</label>
+                <input type="text" class="form-control" id="name" placeholder="姓名" name="name">
+            </div>
+            <div class="am-form-group">
+                <label for="major">负责人手机</label>
+                <input type="text" class="form-control" id="major" placeholder="手机" name="mobile">
+            </div>
+            <div class="am-form-group">
+                <label for="major">组织简介</label>
+                <input type="text" class="form-control" id="major" placeholder="组织简介" name="intro">
+            </div>
+            <div class="am-form-group">
+                <label for="password">密码</label>
+                <input type="password" class="form-control" id="password" placeholder="密码" name="password">
+            </div>
+            <div class="am-form-group">
+                <button type="submit" class="am-btn-default">添加</button>
+            </div>
+        </form>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover table-striped">
+            <thead>
+            <tr>
+                <th>用户名</th>
+                <th>组织名</th>
+                <th>负责人手机</th>
+                <th>组织简介</th>
+                <th>管理</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.mobile}</td>
+                    <td><button class="am-btn am-btn-default am-btn-xs" data-am-modal="{target: '#my-alert'}">查看</button></td>
+                    <div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
+                        <div class="am-modal-dialog">
+                            <div class="am-modal-hd">组织简介</div>
+                            <div class="am-modal-bd">
+                                {$vo.intro}
+                            </div>
+                            <div class="am-modal-footer">
+                                <span class="am-modal-btn">确定</span>
+                            </div>
+                        </div>
+                    </div>
+                    <td><a href="__URL__/edit/id/{$vo.id}">修改</a> <a href="__URL__/del/id/{$vo.id}">删除</a></td>
+                    <td><if condition="$vo.state eq 1"><a href="__URL__/off/id/{$vo.id}" class="am-btn am-btn-danger am-btn-xs"><span class="am-icon-archive"></span> 关闭账号</a></if>
+                        <if condition="$vo.state eq 0"><a href="__URL__/on/id/{$vo.id}" class="am-btn am-btn-default am-btn-xs"><span class="am-icon-archive"></span> 审核账号</a></if></td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+    </div>
+    <div>{$page}</div>
+</div>
+<include file="Public/admin/footer.html" />

@@ -1,0 +1,109 @@
+<include file="Public/user/header.html" title="活动列表" />
+<include file="Public/user/menu.html" />
+
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">活动管理</strong> / <small>发布、删除、编辑</small></div>
+</div>
+
+<div class="am-g">
+    <div class="am-u-sm-12">
+        <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+            <tr>
+                <th width="30%">标题</th><th>组织</th><th>截止日期</th><th>简介</th><th>报名</th><th>状态</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td width="30%">{$vo.title}</td>
+                    <td>{$vo.org}</td>
+                    <td>{$vo.time|date='Y-m-d',###}</td>
+                    <td>
+                        <button class="am-btn am-btn-default am-btn-xs" data-toggle="modal" data-target="#alert-{$vo.id}">活动介绍</button>
+                        <div class="modal fade" id="alert-{$vo.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">活动介绍</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        {$vo.content}
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="am-btn am-btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <if condition="$vo.time egt $now"><button class="am-btn am-btn-default am-text-danger am-btn-xs" data-am-modal="{target: '#sign-{$vo.id}'}">点击报名</button>
+                        <else /><button class="am-btn am-btn-default am-btn-xs" disabled>已截止报名</button>
+                        </if>
+                        <div class="am-modal am-modal-alert" tabindex="-1" id="sign-{$vo.id}">
+                            <div class="am-modal-dialog">
+                                <div class="am-modal-hd">活动报名</div>
+                                <div class="am-modal-bd">
+                                    <form class="am-form am-form-horizontal" action="sign" method="post">
+                                        <div class="am-form-group">
+                                            <label class="am-u-sm-2 am-form-label">姓名</label>
+                                            <div class="am-u-sm-10">
+                                                <input type="text" name="name" disabled placeholder="输入你的姓名" value="{$_SESSION['name']}">
+                                                <input type="hidden" name="name" placeholder="输入你的姓名" value="{$_SESSION['name']}">
+                                                <input type="hidden" name="username" value="{$_SESSION['username']}">
+                                            </div>
+                                        </div>
+
+                                        <div class="am-form-group">
+                                            <label class="am-u-sm-2 am-form-label">手机</label>
+                                            <div class="am-u-sm-10">
+                                                <input type="text" name="mobile" placeholder="输入你的手机号码">
+                                            </div>
+                                        </div>
+
+                                        <div class="am-form-group">
+                                            <label class="am-u-sm-2 am-form-label">理由</label>
+                                            <div class="am-u-sm-10">
+                                                <textarea rows="3" name="content" type="text" placeholder="请填写你参与此活动的理由"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="am-form-group">
+                                            <label class="am-u-sm-2 am-form-label">微信</label>
+                                            <div class="am-u-sm-10">
+                                                <input type="text" name="wechat" placeholder="输入你的微信">
+                                            </div>
+                                        </div>
+                                        <input type="hidden" value="{$vo.id}" name="classify">
+                                        <input type="hidden" value="{$vo.title}" name="title">
+                                        <input type="hidden" value="{$vo.org}" name="org">
+
+                                        <div class="am-form-group">
+                                            <div>
+                                                <button type="submit" class="am-btn am-btn-default">提交</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="am-modal-footer">
+                                    <span class="am-modal-btn">关闭</span>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <if condition="$vo.time egt $now"><span class="am-badge am-badge-primary"><span class="am-icon-archive"></span> 正在进行</span></if>
+                        <if condition="$vo.time lt $now"><span class="am-badge am-badge-danger"><span class="am-icon-archive"></span> 已截止</span></if>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+
+    </div>
+    <div>{$page}</div>
+</div>
+
+<include file="Public/user/footer.html" />

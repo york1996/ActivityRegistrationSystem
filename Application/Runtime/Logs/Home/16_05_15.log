@@ -1,0 +1,26 @@
+[ 2016-05-15T20:43:03+08:00 ] ::1 /wxtest/index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 59 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Home/Controller/PublicController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/ddaf032eeb3f0e441c9409c65fc90ee1.php 第 37 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/ddaf032eeb3f0e441c9409c65fc90ee1.php 第 46 行.
+NOTIC: [8] Undefined index: type /Applications/MAMP/htdocs/wxtest/Application/Runtime/Cache/Home/ddaf032eeb3f0e441c9409c65fc90ee1.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+

@@ -1,0 +1,46 @@
+<include file="Public/admin/header.html" title="用户编辑" />
+<include file="Public/admin/menu.html" />
+
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">编辑个人账号信息</strong> / <small>在这里可以编辑学生信息</small></div>
+</div>
+
+<div class="am-container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">修改</h3>
+        </div>
+        <div class="panel-body">
+            <div class="am-container">
+                <form class="am-form-inline" method="post" action="__URL__/update"  enctype="multipart/form-data">
+                    <input type="hidden" name="id" value="{$vo.id}">
+                    <div class="am-form-group">
+                        <label for="id">用户名</label>
+                        <input type="text" class="form-control" id="id" placeholder="用户名" name="username" value="{$vo.username}">
+                    </div>
+                    <div class="am-form-group">
+                        <label for="name">组织名</label>
+                        <input type="text" class="form-control" id="name" placeholder="姓名" name="name" value="{$vo.name}" >
+                    </div>
+                    <div class="am-form-group">
+                        <label for="password">密码</label>
+                        <input type="password" class="form-control" id="password" placeholder="密码" name="password">
+                    </div>
+                    <div class="am-form-group">
+                        <label for="major">手机</label>
+                        <input type="text" class="form-control" id="major" placeholder="手机" name="mobile" value="{$vo.mobile}">
+                    </div>
+                    <div class="am-form-group">
+                        <label for="major">简介</label>
+                        <input type="text" class="form-control" id="major" placeholder="简介" name="intor" value="{$vo.intro}">
+                    </div>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-default">修改</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<include file="Public/admin/footer.html" />

@@ -1,0 +1,123 @@
+<include file="Public/home/header.html" title="注册"/>
+<include file="Public/home/menu.html" />
+
+<style>
+    .header {
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 200%;
+        color: #333;
+        margin-top: 30px;
+    }
+    .header p {
+        font-size: 14px;
+    }
+</style>
+<div class="header">
+    <div class="am-g">
+        <h1>注册</h1>
+        <p>个人/组织注册页面,组织注册需审核后才给予开通<br/>请填写下面的信息</p>
+    </div>
+    <hr />
+</div>
+<div class="am-g">
+    <div class="am-tabs am-u-lg-6 am-u-md-8 am-u-sm-centered" data-am-tabs>
+        <ul class="am-tabs-nav am-nav am-nav-tabs">
+            <li class="am-active"><a href="#tab1">个人</a></li>
+            <li><a href="#tab2">组织</a></li>
+        </ul>
+
+        <div class="am-tabs-bd">
+            <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+
+                <div class="am-u-sm-centered">
+                    <form action="{:U('Public/Reg1')}" method="post" class="am-form" data-am-validator>
+                        <fieldset>
+                            <div class="am-form-group">
+                                <label for="doc-vld-name-2">用户名：</label>
+                                <input type="text" name="username" id="doc-vld-name-2" placeholder="输入用户名" required/>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="doc-vld-passwd-2">密码：</label>
+                                <input type="password" name="password" id="doc-vld-passwd-2" placeholder="输入密码" required/>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="doc-vld-passwd-2">确定密码：</label>
+                                <input type="password" name="repassword" id="doc-vld-passwd-2" placeholder="确定密码" required/>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="doc-vld-1">真实姓名：</label>
+                                <input type="text" name="name" id="doc-vld-1" placeholder="请输入真实姓名" required/>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="doc-vld-3">手机：</label>
+                                <input type="text" name="mobile" id="doc-vld-3" placeholder="请输入手机号">
+                            </div>
+
+                            <div class="am-cf">
+                                <input type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm am-fl">
+                            </div>
+
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="am-tab-panel am-fade" id="tab2">
+                <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+
+                    <div class="am-u-sm-centered">
+                        <form action="{:U('Public/Reg2')}" method="post" class="am-form" data-am-validator>
+                            <fieldset>
+                                <div class="am-form-group">
+                                    <label for="doc-vld-name-2">用户名：</label>
+                                    <input type="text" name="username" id="doc-vld-name-2" placeholder="输入用户名" required/>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="doc-vld-passwd-2">密码：</label>
+                                    <input type="password" name="password" id="doc-vld-passwd-2" placeholder="输入密码" required/>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="doc-vld-passwd-2">确定密码：</label>
+                                    <input type="password" name="repassword" id="doc-vld-passwd-2" placeholder="确定密码" required/>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="doc-vld-passwd-2">组织名：</label>
+                                    <input type="text" name="name" id="doc-vld-passwd-2" placeholder="请输入真实姓名" required/>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="doc-ta-1">组织简介</label>
+                                    <textarea class="" rows="5" id="doc-ta-1" name="intro"></textarea>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="doc-vld-passwd-2">联系人手机：</label>
+                                    <input type="text" name="mobile" id="doc-vld-passwd-2" placeholder="请输入手机号" required/>
+                                </div>
+
+                                <input type="hidden" value="0" name="state">
+
+                                <div class="am-cf">
+                                    <input type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm am-fl">
+                                </div>
+
+
+                            </fieldset>
+                        </form>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<include file="Public/home/footer.html" />

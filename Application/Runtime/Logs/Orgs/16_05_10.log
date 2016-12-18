@@ -1,0 +1,56 @@
+[ 2016-05-10T23:18:40+08:00 ] ::1 /wxtest/index.php/Orgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+SQL: SHOW COLUMNS FROM `su_active` [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `su_user` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `su_org` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `su_tc` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_active` LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_tc` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_org` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001515s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001621s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-05-10T23:54:37+08:00 ] ::1 /wxtest/index.php/Orgs/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `su_active` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `su_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `su_org` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `su_tc` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_active` LIMIT 1   [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_user` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_tc` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `su_org` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000961s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+

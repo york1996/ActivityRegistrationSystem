@@ -1,0 +1,52 @@
+<include file="Public/admin/header.html" title="报名信息" />
+<include file="Public/admin/menu.html" />
+
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg"><{$data.title}>活动报名信息</strong> / <small>共有{$people}人报名</small></div>
+</div>
+
+<div class="am-g">
+    <div class="am-u-sm-12">
+        <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+            <tr>
+                <th>姓名</th><th>手机</th><th>报名日期</th><th>报名理由</th><th>微信</th><th>状态</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.mobile}</td>
+                    <td>{$vo.time|date='Y-m-d',###}</td>
+                    <td><button class="am-btn am-btn-default am-btn-xs" data-am-modal="{target: '#my-alert-{$vo.id}'}">查看理由</button></td>
+                    <div class="am-modal am-modal-alert" tabindex="-1" id="my-alert-{$vo.id}">
+                        <div class="am-modal-dialog">
+                            <div class="am-modal-hd">报名理由</div>
+                            <div class="am-modal-bd">
+                                {$vo.content}
+                            </div>
+                            <div class="am-modal-footer">
+                                <span class="am-modal-btn">确定</span>
+                            </div>
+                        </div>
+                    </div>
+                    <td>{$vo.wechat}</td>
+                    <td>
+                        <div class="am-btn-toolbar">
+                            <div class="am-btn-group am-btn-group-xs">
+                               <if condition="$vo.state eq 0"> <a href="__URL__/on/id/{$vo.id}" class="am-btn am-btn-danger am-btn-xs"><span class="am-icon-pencil-square-o"></span> 未审核,点击审核</a></if>
+                                <if condition="$vo.state eq 1"><a href="__URL__/off/id/{$vo.id}" class="am-btn am-btn-default am-btn-xs"><span class="am-icon-pencil-square-o"></span> 已审核,点击关闭</a></if>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+
+    </div>
+    <div>{$page}</div>
+</div>
+
+<include file="Public/admin/footer.html" />

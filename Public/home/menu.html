@@ -1,0 +1,55 @@
+<header class="am-topbar  am-topbar-inverse">
+    <h1 class="am-topbar-brand">
+        <a href="{:U('Index/index')}">活动报名系统</a>
+    </h1>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+        <ul class="am-nav am-nav-pills am-topbar-nav">
+        </ul>
+
+
+
+        <div class="am-topbar-right">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+
+                <if condition="$_SESSION['type'] eq 1">
+                    <li class="am-dropdown" data-am-dropdown>
+                        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                            <span class="am-icon-users"></span> {$_SESSION['name']} <span class="am-icon-caret-down"></span>
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li><a href="{:U('./User/Index')}"><span class="am-icon-bars"></span> 个人中心</a></li>
+                            <li><a href="{:U('Public/logout')}"><span class="am-icon-power-off"></span> 退出</a></li>
+                        </ul>
+                    </li>
+                    <elseif condition="$_SESSION['type'] eq 2" />
+                        <li class="am-dropdown" data-am-dropdown>
+                            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                                <span class="am-icon-users"></span> {$_SESSION['name']} <span class="am-icon-caret-down"></span>
+                            </a>
+                            <ul class="am-dropdown-content">
+                                <li><a href="{:U('./Org/Index')}"><span class="am-icon-bars"></span> 组织控制台</a></li>
+                                <li><a href="{:U('Public/logout')}"><span class="am-icon-power-off"></span> 退出</a></li>
+                            </ul>
+                        </li>
+                        <elseif condition="$_SESSION['type'] eq 3" />
+                            <li class="am-dropdown" data-am-dropdown>
+                                <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                                    <span class="am-icon-users"></span> {$_SESSION['name']} <span class="am-icon-caret-down"></span>
+                                </a>
+                                <ul class="am-dropdown-content">
+                                    <li><a href="{:U('./Admin/Index')}"><span class="am-icon-bars"></span> 管理后台</a></li>
+                                    <li><a href="{:U('Public/logout')}"><span class="am-icon-power-off"></span> 退出</a></li>
+                                </ul>
+                            </li>
+                    <else />
+                    <li><a href="{:U('Public/Reg')}">注册</a></li>
+                    <li><a href="{:U('Public/Login')}">登陆</a></li>
+                </if>
+
+            </ul>
+        </div>
+    </div>
+</header>
